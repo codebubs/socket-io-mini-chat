@@ -1,0 +1,25 @@
+{
+  "name": "socket-io-mini-chat",
+  "version": "1.0.0",
+  "description": "1. Install Node JS and complete the set up\r 2. Click on the Code button\r 3. Click \"Download ZIP\"\r 4. Extract the folder by dragging it out into Downloads\r 5. Open the Command Prompt\r 6. Type `cd Downloads/socket-io-mini-chat-main`\r 7. Type `node server.js`\r 8. `http://localhost:3000` should open and you can type chat messages in the window.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paarthnathani/socket-io-mini-chat.git"
+  },
+  "author": "Paarth Nathani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paarthnathani/socket-io-mini-chat/issues"
+  },
+  "homepage": "https://github.com/paarthnathani/socket-io-mini-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "socket.io": "^4.0.0"
+  }
+}
